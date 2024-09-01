@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inter Provincial Bus Route</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Inter Provincial Bus Route</h1>
+    </header>
+
+    <div class="welcome">
+        <h2><u>Welcome to the Sri Lanka Bus Route System</u></h2>
+        <p>The bus route system in Sri Lanka is designed to provide efficient and affordable transporation across the island. With a comprehensive network covering major cities and rural areas, the system ensures that passengers can reach their destinationss comfortably and on time.</p>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>From</th>
+                <th>to</th>
+                <th></th>
+                <th>Visit</th>
+                <th>Price per person</th>
+                <th>Book</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>08:00 AM-<br>11:00 AM</td>
+                <td>Matara</td>
+                <td>Colombo</td>
+                <td>
+                    <img src="images/b1.png" alt="Bus Image">
+                </td>
+                <td>
+                    <div><b>Places to visit</b><br><br>A. Galle Dutch Fort<br>B. Mirissa <br>C. Gangaramaya Temple</div>
+                </td>
+                <td>Rs.200</td>
+                <td><button onclick="button(200)">Book Now</button></td>
+            </tr>
+            <tr>
+                <td>09:00 AM-<br>12:00 AM</td>
+                <td>Jaffna</td>
+                <td>Colombo</td>
+                <td>
+                    <img src="images/b2.png" alt="Bus Image">
+                </td>
+                <td>
+                    <div>D. Anuradhapura<br>E. Polonnaruwa<br>F. Sigiriya</div>
+                </td>
+                <td>Rs.450</td>
+                <td><button onclick="button(450)">Book Now</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <div class="missions">
+        <h1><b>What to expect on buses in Sri Lanka</b></h1>
+        <p>The buses feel fast. Although that's just a sense you get. Because none of the gauges seem to actually work. Mind you anything feels fast when you'are hurtling towards stationary traffic, or you're on the wrong side of the road overtaking another bus and there's minor-image situation coming towards you at similar gauge-less speeds.</p>
+            <div class="booking-container">
+                <div class="header">
+                    EASY BUS BOOKING
+                </div>
+                    <div class="content">
+                        <img src="images/ssg.png" alt="bus booking">
+                            <h2><a href="#">Easiest way to book buses in Sri Lanka</a></h2>
+                            <P>Use 12goAsia as the easiest way to book buses in Sri Lanka. Most routes, best options, great prices, guaurenteed seats</P>
+                            <button>Take Bus Services</button>
+                    </div>
+            </div>
+    </div>
+
+    <div class="bus-container">
+        <h1>Sri Lankan Bus Route</h1>
+        <div class="bus-route-container">
+            <div class="bus-routes">
+                <button onclick="buttonr(1)">Bus Route</button>
+                <p><b>Colombo to Kandy</b></p>
+                <p>The Journey from Colombo to Kandy offers scenic landscapes and lush greenery, connecting the commercial capital with the cultural heart of Sri Lanka. Kandy is renowned for its rich histroy and the Temple of the Sacred Tooth Relic.</p>
+                <img src="images/map.png" alt="Colombo to Kandy">
+            </div>
+
+            <div class="bus-routes">
+                <button onclick="buttonr(2)">Bus Route</button>
+                <p><b>Colombo to Galle</b></p>
+                <p>Travelling from Colombo to Galle along the southwestern coast provides stunning ocean views and stop at beautiful beaches. Galle is famous for its well-presevered Dutch colonial architecture and historic fort.</p>
+                <img src="images/map.png" alt="Colombo to Galle">
+            </div>
+
+            <div class="bus-routes">
+                <button onclick="buttonr(3)">Bus Route</button>
+                <p><b>Colombo to Jaffna</b></p>
+                <p>The Colombo to Jaffna route showcases Sri Lanka's geographical diversity, from urban to Colombo to the rural north. Jaffna is known for its rich Tamil culture, historic sites, and delicious seasfood cuisine.</p>
+                <img src="images/map.png" alt="Colombo to Jaffna">
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <h1>Contact us</h1>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+        <br><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+        <br><br>
+        <input type="text" id="busType" name="busType" placeholder="Enter the preferred bus type">
+        <br><br>
+
+        <label for="preferredBus">Please select your preferred bus route:</label>
+        <br><br>
+
+        <label for="colombo-kandy">Colombo to Kandy</label>
+        <input type="radio" id="colombo-kandy" value="colombo-kandy" name="title">
+        <label for="colombo-galle">Colombo to Galle</label>
+        <input type="radio" id="colombo-galle" value="colombo-galle" name="title">
+        <label for="colombo-jaffna">Colombo to Jaffna</label>
+        <input type="radio" id="colombo-jaffna" value="colombo-jaffna" name="title">
+        <br><br>
+
+        <button type="submit" >Submit</button>
+    </footer>
+    <script src="jscript.js"></script>
+</body> 
+</html>

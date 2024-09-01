@@ -1,0 +1,190 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: rgb(143, 4, 4);
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+.welcome{
+    background-color: rgb(240, 188, 1);
+    padding: 20px;
+    margin:20px;
+    border-radius: 5px;
+    border: grey;
+}
+.welcome h2{
+    font-size: medium;
+}
+.welcome p{
+    color:rgb(143, 4, 4) ;
+    font-size: small;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin:20px;
+    table-layout: fixed;
+    border-radius: 5px;
+}
+
+th, td{
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+}
+th{
+    background-color: rgb(143, 4, 4);
+    color: rgb(249, 208, 3);
+    
+}
+img{
+    width:100px;
+    height: auto;
+}
+button{
+    background-color: orange;
+    border:none;
+    color:black;
+    padding:10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.missions{
+    text-align: center;
+    border: rgb(105, 105, 105) solid 1px;
+    padding: 20px;
+    margin:20px;
+    border-radius: 5px;
+}
+.missions h1{
+    text-align: center;
+    
+}
+.missions p{
+    text-align: center;
+    margin-left: 10px;
+}
+.booking-container{
+    
+    margin: 50px;
+    background-color: rgba(250, 242, 0, 0.975);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-left: 30%;
+   
+}
+.header{
+    background-color: rgb(143, 4, 4);
+    color: white;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;   
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+.content img{
+    width:150px;
+    height:auto;
+    margin-bottom: 20px;
+}
+.content h2 a{
+    color: rgb(143, 4, 4);
+    font-size: 1em;
+    display: block;
+    margin-bottom: 10px;
+}
+.container p{
+    font-size: 1em;
+    margin-bottom:20px;
+}
+.content button{
+    background-color: rgb(143, 4, 4);
+    color: yellow;
+    padding: 10px;
+
+}
+footer{
+    padding: 20px;
+    margin:20px;
+    border-radius: 5px;
+    background-color: rgb(143, 4, 4);
+    color: white;
+    text-align: center;
+}
+.footer h1{
+    color: yellow;
+    text-align: center;
+}
+.footer label{
+    color: yellow;
+    font-size: medium;
+}
+.footer button{
+    cursor:pointer;
+    background-color: yellow;
+    color: black;
+    padding:10px;
+}
+.bus-container h1{
+    color: rgb(255, 166, 2);
+    margin-bottom: 40px ;
+    text-align: center;
+}
+.bus-route-container{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+.bus-routes{
+    background-color: rgb(143, 4, 4);
+    color: rgb(251, 255, 1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.bus-routes button{
+    background-color: rgb(235, 171, 51);
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin-bottom: 20px;
+    cursor:pointer;
+    border-radius: 4px;
+}
+.bus-routes img{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px black;
+    display:flex;
+    justify-content: space-around;
+}
+.bus-container{
+    padding: 20px;
+    margin:20px;
+    border-radius: 5px;
+    border: solid black 1px;
+    text-align: center;
+}
+.booking-container{
+    align-content: center;
+}
